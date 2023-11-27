@@ -10,7 +10,7 @@ This web app allows users to input a Pokemon name, and it utilizes the Pokemon A
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/pokemon-web-app.git
+    git clone https://github.com/gauravmazumdar21/Pokemon-finder.git
     ```
 
 2. **Navigate to the project directory:**
