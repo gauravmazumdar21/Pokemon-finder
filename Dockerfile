@@ -15,6 +15,5 @@ COPY package-lock.json .
 # Copy the rest of the application code
 COPY . .
 
-
 # Specify the command to run on container start
 CMD ["node", "server.js"]
