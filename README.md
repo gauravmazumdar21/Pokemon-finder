@@ -33,6 +33,22 @@ This web app allows users to input a Pokemon name, and it utilizes the Pokemon A
 
     This will start the Node.js server, and you can access the web app at [http://localhost:3000](http://localhost:3000).
 
+## Docker Support
+To build a Docker image for the Pokemon Finder app, you can use the following commands:
+
+1. Build the Docker image:
+
+```bash
+docker build -t nodejs-pokemon .
+```
+
+2. Run the Docker container:
+
+```bash
+docker run -it -p 3000:3000 nodejs-pokemon
+```
+This will run the app inside a Docker container, and you can access it at http://localhost:3000.
+
 ## Usage
 
 1. Open your web browser and go to [http://localhost:3000](http://localhost:3000).
